@@ -6,7 +6,7 @@ import { plans } from "../constants/index.jsx";
 import Button from "../components/Button.jsx";
 
 const Pricing = () => {
-  const [monthly, setMonthly] = useState(false);
+  const [monthly, setMonthly] = useState(true);
 
   return (
     <section>
